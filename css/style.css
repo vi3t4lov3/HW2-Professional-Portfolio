@@ -63,17 +63,29 @@ a:hover {
 }
 /* header  */
 header .container {
-    margin: 15px; 
-
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px; 
+    height: 250px;
     background: url(../images/bg.jpg) no-repeat;
     background-size: 100% auto;
     background-position: center;
     color: white;
     text-align: center;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 5px;
+}
+main .container {
+    height: 200px;
 }
 
-
 /* footer */
+footer h1 {
+    background-color: #063461;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 250px;
+    padding: 20px
+}
