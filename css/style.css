@@ -38,7 +38,7 @@ nav p {
     color: #fff;
     position: absolute;
     bottom: 6px;
-    left: 90px
+    left: 73px
 }
 
 nav img {
@@ -76,16 +76,41 @@ header .container {
     padding: 10px;
     border-radius: 5px;
 }
-main .container {
-    height: 200px;
+main {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    /* flex-direction: column; */
+    /* align-content: flex-end; */
+}
+
+main .work {
+    /* position: absolute; */
+    /* left: 300px; */
+}
+main .about-me {
+    background-color: #063461;
 }
 
 /* footer */
-footer h1 {
+footer .container {
     background-color: #063461;
     color: #fff;
     font-size: 10px;
     text-align: center;
     margin-top: 250px;
-    padding: 20px
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .social-media ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+footer .copyright {
+    align-items: right;
 }
