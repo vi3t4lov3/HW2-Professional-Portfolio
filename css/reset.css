@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color:#000;
+}
+
+body {
+    /* background-color: #d9dcd6; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+/* navbar  */
+nav {
+    background-color: #fff;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: auto;
+    border-bottom: 1px #ccc solid;
+}
+nav .logo {
+    display: flex;
+    position: relative;
+    align-items:center;
+    width: 100%;
+}
+
+nav h1 {
+    align-items: center;
+    
+}
+nav p {
+    font-size: 10px;
+    text-decoration:overline;
+    position: absolute;
+    bottom: 6px;
+    left: 73px
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+a {
+    color: #000;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color:#0171E3;
+}
+a:active {
+    color: #0171E3;
+}
+/* header  */
+header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px; 
+    min-height: 250px;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    /* margin-bottom: 750px; */
+}
+/* try to learn grid layout*/
+main .container {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* grid-template-areas: 
+    "about about",
+    "work contact",
+    "education contact",
+    "project project"
+    ; */
+    /* grid-template-columns: 1fr; */
+    /* grid-auto-rows: minmax(150px); */
+    /* grid-gap: 10px; */
+    margin: 20px;
+}
+
+ .about-me {
+    /* grid-area: about; */
+    /* grid-column: span 2; */
+    border-radius: 5px; 
+    /* display: flex; */
+    box-shadow: 0 3px 5px #333;
+}
+
+.about-me p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6A6A6A;
+}
+
+/* .tablebox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+/* Work class */
+.work {
+    /* grid-column: span 2; */
+    /* grid-area: work; */
+    background: #CEF4FF;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    box-shadow: 0 3px 5px #333;
+}
+[class^="workbox-"] p {
+    color: #6A6A6A;
+}
+.mywork {
+
+}
+.mywork h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.myeducation {  
+    /* grid-area: education   ; */
+    /* grid-column: span 2; */
+    background-color: #DDB9B0;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+    box-shadow: 0 3px 5px #333;
+    /* margin-bottom: 20px; */
+    
+}
+.myproject {
+    /* grid-area: project; */
+    /* grid-column: span 2; */
+    background-color: #996ed9;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 3px 5px #333;
+}
+/* contact  class */
+.contact {
+    /* grid-area: contact; */
+    /* grid-column: span 2; */
+    /* grid-row: span 2; */
+    background-color: #CBF3E2;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px #333;
+}
+.contact ul {
+    list-style: none;
+    padding-left: 10px;
+}
+.contact h1 {
+    text-align: center;
+}
+
+[class^="workbox-"] h3{
+    opacity: 80%;
+    font-size:15px
+}
+[class^="workbox-"] h5{
+    opacity: 50%;
+    font-size:10px;
+    padding-left: 10px;
+}
+
+/* footer */
+footer .container {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+
+footer .social-media ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+footer li {
+    margin-right: 20px;
+}
+footer .copyright {
+    align-items: right;
+}
+@media (max-width: 767px) {
+
+    
+}
