@@ -104,7 +104,7 @@ main .container {
 
  .about-me {
     border-radius: 5px; 
-    background-color: #fff;
+    background-color: #FDFDFF;
     /* display: flex; */
     box-shadow: 0 3px 5px #333;
     margin: 20px;
@@ -140,8 +140,8 @@ main .container {
 
 
 /* Work class */
-.work {
-    background: #CEF4FF;
+.experience {
+    background: #FCFFF6;
     border-radius: 5px;
     margin: 20px;
     padding: 10px;
@@ -151,12 +151,12 @@ main .container {
     color: #6A6A6A;
 }
 
-.mywork h1 {
+.experience h1 {
     text-align: center;
     font-weight: bold;
 }
 .myeducation {  
-    background-color: #DDB9B0;
+    background-color: #FDFDFF;
     border-radius: 5px;
     padding: 10px;
     margin: 20px;
@@ -164,17 +164,9 @@ main .container {
     box-shadow: 0 3px 5px #333;
     
 }
-.myproject {
-    background-color: #996ed9;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 20px;
-    text-align: left;
-    box-shadow: 0 3px 5px #333;
-}
 
 .portfolio {
-    /* background-color: #996ed9; */
+    background-color: #FCFFF6;
     border-radius: 5px;
     padding: 10px;
     margin: 20px;
@@ -199,7 +191,7 @@ main .container {
 
 /* contact  class */
 .contact {
-    background-color: #CBF3E2;
+    background-color: #FDFDFF;
     border-radius: 5px;
     box-shadow: 0 3px 5px #333;
     margin: 20px;
