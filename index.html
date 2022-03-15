@@ -27,37 +27,56 @@
    <header class="header">
        <div class="container">
            <h1>“Make it work, make it right, make it fast.”</h1>
-           <div class="button">Welcome to my Website</div>
+           <h5>Welcome to my Website</h5>
        </div>
        
    </header>
-<main class="container">
-    <div class="gridbox">
-        <!-- grid item 1 aboutme -->
-        <div class="about-me">
-            
+<main class="main">
+    <div class="container">
+        <!-- aboutme -->
+        <div id="about" class="about-me">
+            <div class="box-1">
+               <img src="./images/tunguyenprofile.jpeg" alt="Tu Nguyen's Profile Photo" />
+            </div>
             <div class="box-2">
                 <h2>Hello! I'm Tu Nguyen, a web developer from Atlanta GA.</h2>
-                <p>&nbsp;&nbsp;&nbsp; I am a very technically minded individual with a great deal of knowledge regarding Apple’s hardware and software products as well as most other technologies in our industry. I am a hardworking and analytical individual who possesses strong problem- solving skills and a drive to learn new things. I have advanced knowledge in repairing, programming, operating systems, and web development. I am constantly looking to improve myself while growing in the computer science and technology fields.</p>
-
-                <!-- <div class="tablebox">
-                    <div class="tablebox-1">
-                        <h3>Position</h3> 
-                        <p>Freelance</p>
+                <p>I am a very technically minded individual with a great deal of knowledge regarding Apple’s hardware and software products as well as most other technologies in our industry. I am a hardworking and analytical individual who possesses strong problem- solving skills and a drive to learn new things. I have advanced knowledge in repairing, programming, operating systems, and web development. I am constantly looking to improve myself while growing in the computer science and technology fields.</p>
+                <div class="tablebox">
+                    <div class="leftbox">
+                        <div class="tablebox-1">
+                            <h3>POSITION:</h3> 
+                            <p>Freelance</p>
+                        </div>
+                        <div class="tablebox-1">
+                            <h3>SKILL:</h3> 
+                            <p>HTML5, CSS, JS, Python</p>
+                        </div>
+                        <div class="tablebox-1">
+                            <h3>EXPERIENCE:</h3> 
+                            <p>2+ Year</p>
+                        </div>
                     </div>
-                    <div class="tablebox-1">
-                        <h3>Experiance</h3> 
-                        <p>1+ Year</p>
+                    <div class="rightbox">
+                        <div class="tablebox-1">
+                            <h3>WEBSITE:</h3> 
+                            <a href="http://tunguyen.com" target="_blank"><p>TuNguyen.Com</p></a>
+                        </div>
+                        <div class="tablebox-1">
+                            <h3>LANGUAGES:</h3> 
+                            <p>English & Vietnamese</p>
+                        </div>
+                        <div class="tablebox-1">
+                            <a id="#project" class="button" href="#project"> See my work...</a>
+                        </div>
                     </div>
-                    <div class="tablebox-1">
-                        <h3>Website</h3> 
-                        <p>tunguyen.com</p>
-                    </div>
-                </div> -->
+                    
+                </div>
+                
+                
             </div>
 
         </div>
-        <!-- grid item 2 work EXPERIENCE -->
+        <!-- WORK EXPERIENCE -->
         <div id="project" class="work">
             <div class="mywork">
                 <h1>EXPERIENCE</h1>
@@ -80,8 +99,8 @@
                     <p>&bull; Consulting and collaborating with managers and team members.</p>  
             </div>
         </div>
-        <!-- grid item 3 education -->
-        <div class="myeducation">
+        <!-- EDUCATION -->
+        <div id="education" class="myeducation">
                 <h1>EDUCATION</h1>
             <div class="workbox-1">
                 <h3> Bachelor of Science (B.S), Computer Science 2014</h3>
@@ -100,27 +119,49 @@
                 <h5>Apple</h5>
             </div>
         </div>
-        <!-- grid item 4 project -->
-        <div class="myproject">
+        <!-- PROTJECT -->
+        <!-- <div class="myproject">
                 <h1>PROJECT</h1>
             <div class="workbox-1">
-                <h3> Bachelor of Science (B.S), Computer Science 2014</h3>
-                <h5>Clayton State University</h5>
+                <h3>Mini CSS Snippet Cheat Sheet</h3>
+               <h5> <a href="https://github.com/vi3t4lov3/CSS-Snippet-Cheat-Sheet-Project">https://github.com/vi3t4lov3/CSS-Snippet-Cheat-Sheet-Project</a></h5>
             </div>
-            <div class="workbox-2">
-                <h3>Certified Technical Coordinator ACTC 2014</h3>
-                <h5>Apple</h5>
+        </div> -->
+        <!-- PORTFOLIO -->
+<!-- Portfolio -->
+    <div class="portfolio">
+        <header>
+            <h1>MY PORTFOLIO</h1>
+            <h2>Here’s some stuff I made recently.</h2>
+            <p>Feel free to click on the images to connect to my github</p>
+        </header>
+        <div class="row">
+            <div class="portfolio-box">
+                <article class="box-style">
+                    <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+                    <h3><a href="#">CSS Snippet Cheat Sheet</a></h3>
+                    <p>Mini project at Bootcamp Coding.</p>
+                </article>
             </div>
-            <div class="workbox-3">
-                <h3>Certified Macintosh Technician ACMT 2014</h3>
-                <h5>Apple</h5>
+            <div class="portfolio-box">
+                <article class="box-style">
+                    <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+                    <h3><a href="#">Photo Shoot</a></h3>
+                    <p>Photoshoot on my solo trip in Denver</p>
+                </article>
             </div>
-            <div class="workbox-4">
-                <h3>Certified Technical Support Professional 2013</h3>
-                <h5>Apple</h5>
+            <div class="portfolio-box">
+                <article class="box-style">
+                    <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                    <h3><a href="#">Bot Alerts For Discord</a></h3>
+                    <p>Display short cuts alert syntax for discord</p>
+                </article>
             </div>
         </div>
-        <!-- grid item 5 contact -->
+    </div>
+
+
+        <!-- CONTACTcontact -->
         <div id="contact" class="contact">
             <h1>CONTACT</h1>
             <ul>
