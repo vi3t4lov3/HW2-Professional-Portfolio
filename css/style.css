@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Elegent";
+    src: url("/fonts/ElegantIcons.woff") format("woff")
+  }
 * {
     box-sizing: border-box;
     padding: 0;
@@ -50,7 +54,7 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: end;
-        margin: 20px;
+        margin: 0px;
         border-bottom: 1px #ccc solid;
     }
     nav .logo {
@@ -61,6 +65,7 @@ nav {
     }
 
     nav h1 {
+        font-weight: bold;
         align-items: center;
         
     }
@@ -91,16 +96,14 @@ header .container {
     flex-direction: column;
     justify-content: center;
     margin: 20px; 
-    min-height: 250px;
-    background: url(../images/bg.jpg) no-repeat;
+    min-height: 100px;
+    background: url(../images/bg.jpg);
+    border-radius: 5px;
     background-size: 100% auto;
     background-position: center;
     color: white;
     text-align: center;
     padding: 10px;
-    border-radius: 5px;
-
-    /* margin-bottom: 750px; */
 }
 
 main .container {
@@ -156,6 +159,7 @@ main .container {
 }
 
 .experience h1 {
+    font-family: Elegent;
     text-align: center;
     font-weight: bold;
 }
@@ -261,5 +265,10 @@ footer .copyright {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+    }
+    nav .logo {
+
+        align-items:center;
+        /* width: 100%; */
     }
 }
