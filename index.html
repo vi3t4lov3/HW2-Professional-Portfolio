@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7678bb41f4.js" crossorigin="anonymous"></script>
     <title>Tu Nguyen Profile</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -65,9 +66,7 @@
                             <h3>LANGUAGES:</h3> 
                             <p>English & Vietnamese</p>
                         </div>
-                        <div class="tablebox-1">
-                            <a id="#project" class="button" href="#project"> See my work...</a>
-                        </div>
+                        
                     </div>
                     
                 </div>
@@ -119,17 +118,8 @@
                 <h5>Apple</h5>
             </div>
         </div>
-        <!-- PROTJECT -->
-        <!-- <div class="myproject">
-                <h1>PROJECT</h1>
-            <div class="workbox-1">
-                <h3>Mini CSS Snippet Cheat Sheet</h3>
-               <h5> <a href="https://github.com/vi3t4lov3/CSS-Snippet-Cheat-Sheet-Project">https://github.com/vi3t4lov3/CSS-Snippet-Cheat-Sheet-Project</a></h5>
-            </div>
-        </div> -->
-        <!-- PORTFOLIO -->
-<!-- Portfolio -->
-    <div id="portfolio" class="portfolio">
+        <!-- Portfolio -->
+        <div id="portfolio" class="portfolio">
         <header>
             <h1>MY PORTFOLIO</h1>
             <h2>Here’s some stuff I made recently.</h2>
@@ -138,58 +128,70 @@
         <div class="row">
             <div class="portfolio-box">
                 <article class="box-style">
-                    <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-                    <h3><a href="#">CSS Snippet Cheat Sheet</a></h3>
+                    <a href="#" class="image featured"><img src="images/pic01.png" alt="the code of cheatsheet" /></a>
+                    <h3><a href="https://github.com/vi3t4lov3/CSS-Snippet-Cheat-Sheet-Project">CSS Snippet Cheat Sheet</a></h3>
                     <p>Mini project at Bootcamp Coding.</p>
                 </article>
             </div>
+
             <div class="portfolio-box">
                 <article class="box-style">
-                    <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-                    <h3><a href="#">Photo Shoot</a></h3>
-                    <p>Photoshoot on my solo trip in Denver</p>
+                    <a href="https://github.com/vi3t4lov3/HW1-Code-Refactor" class="image featured"><img src="images/pic03.png" alt="pictures of the SEO" /></a>
+                    <h3><a href="#">Code Refactor</a></h3>
+                    <p>First assignment on Bootcamp Course</p>
                 </article>
             </div>
             <div class="portfolio-box">
                 <article class="box-style">
-                    <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-                    <h3><a href="#">Bot Alerts For Discord</a></h3>
-                    <p>Display short cuts alert syntax for discord</p>
+                    <a href="http://creativethemoment.com/photography/" class="image featured"><img src="images/pic02.png" alt="picture took at God of Garden" /></a>
+                    <h3><a href="#">Photo Shoot</a></h3>
+                    <p>This is side of my joy...</p>
                 </article>
             </div>
         </div>
-    </div>
-
-
+        </div>
         <!-- CONTACTcontact -->
         <div id="contact" class="contact">
-            <h1>CONTACT</h1>
-            <ul>
+            <header>
+                <h1>CONTACT</h1>
+            </header>
+            <div class="row">
+            <div class="contact-box1">
+                <ul>
                 <li>
-                    <i class="fab fa-envelope"></i>
-                    <i class="fa-solid fa-mobile-screen-button"></i>
-                    <p>Email: tuinfor@ymail.com</p>
+                    <p><i class="fa fa-envelope"></i> Email: tuinfor@ymail.com</p>
                 </li>
                 <li>
-                    <i class="fab fa-tell"></i>
-                    <p>Phone: 1(770)-402-6330</p>
+                    <p><i class="fa fa-phone"></i > Phone: 1(770)-402-6330</p>
                 </li>
-                <li><i class="fab fa-abacus"></i>
-                    <i class="fab fa-address"></i>
-                    <p>1234 Main Street</p>
+                    <p><i class="fa fa-map"></i> 1234 Main Street</p>
                     <p>Tyrone, GA 30290</p>
                 </li>
-                <li>
-                    <button>
-                        Hire Me
-                    </button>
-                    <button>
-                        Download Resume
-                    </button>
-
-                </li>
-            </ul>
+                </ul>
+            </div>
+            <div class="contact-box2">
+                <!-- just the layout not sending yet  -->
+                <form class="my-form">
+                    <div class="form-group">
+                        <label>Name: </label>
+                        <input type="text" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">   
+                        <label>Email: </label>
+                        <input type="text" name="email" placeholder="Your Email">
+                    </div>   
+                    <div class="form-group">   
+                        <label>Message: </label>
+                        <input type="text" name="message" placeholder="Your message">
+                    </div>    
+                    <input class="button" type="submit" value="Sent" name="#"> 
+                </form>
+            </div>
+            </div>
+            
+           
         </div>
+
     </div>
 </main>    
 
